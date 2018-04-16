@@ -52,6 +52,7 @@ console.log(
 * `{Object} [options]`: An optional options object.
   * `{Number} options.x` (default: `0`): Horizontal padding applied to the table.
   * `{Number} options.y` (default: `0`): Vertical padding applied to the table.
+  * `{Array} options.alignRight` (default: `[]`): Column indexes to align right.
   * `{Object} options.colors`: An object of hex color values for theming.
     * `{String} colors.head` (default: `''`): Header text color.
     * `{String} colors.data` (default: `''`): Data text color.

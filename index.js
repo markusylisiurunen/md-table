@@ -68,7 +68,12 @@ const buildRow = (columns, get, { borderColor = '', paddingLeft = 0 } = {}) => {
 module.exports = (
   header,
   rows,
-  { x = 0, y = 0, colors = { head: '', data: '', border: '' } } = {}
+  {
+    x = 0,
+    y = 0,
+    alignRight = [],
+    colors = { head: '', data: '', border: '' },
+  } = {}
 ) => {
   const cols = header.length;
   const widths = Array(header.length)
@@ -82,13 +87,24 @@ module.exports = (
   const rowBuilder = f =>
     buildRow(cols, f, { borderColor: colors.border, paddingLeft: x });
 
+  const padder = (str, index, options) => {
+    if (alignRight.includes(index)) {
+      return (
+        pad('', widths[index] - str.length, options) +
+        pad(str, str.length, options)
+      );
+    }
+
+    return pad(str, widths[index], options);
+  };
+
   table += rowBuilder(i => pad(header[i], widths[i], { color: colors.head }));
   table += rowBuilder(i =>
-    pad('', widths[i], { padWith: '-', color: colors.border })
+    padder('', i, { padWith: '-', color: colors.border })
   );
 
   rows.forEach(row => {
-    table += rowBuilder(i => pad(row[i], widths[i], { color: colors.data }));
+    table += rowBuilder(i => padder(row[i], i, { color: colors.data }));
   });
 
   table += pad('', y, { padWith: '\n' });
