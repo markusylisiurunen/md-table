@@ -1,0 +1,35 @@
+{
+  "name": "md-table",
+  "version": "0.1.0-alpha",
+  "description": "Minimal package for printing themable Markdown tables to stdout.",
+  "keywords": [
+    "console",
+    "markdown",
+    "print",
+    "stdout",
+    "table",
+    "terminal",
+    "theme"
+  ],
+  "homepage": "https://github.com/markusylisiurunen/md-table#readme",
+  "bugs": "https://github.com/markusylisiurunen/md-table/issues",
+  "license": "MIT",
+  "author": "Markus Ylisiurunen <os@markus.im>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markusylisiurunen/md-table"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  },
+  "engines": {
+    "node": ">=9.7.0"
+  }
+}
