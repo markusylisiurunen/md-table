@@ -1,5 +1,5 @@
 {
-  "name": "md-table",
+  "name": "@markusylisiurunen/md-table",
   "version": "0.1.0-alpha",
   "description": "Minimal package for creating themable tables as strings.",
   "keywords": [
