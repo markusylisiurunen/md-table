@@ -1,14 +1,10 @@
 {
   "name": "md-table",
   "version": "0.1.0-alpha",
-  "description": "Minimal package for printing themable Markdown tables to stdout.",
+  "description": "Minimal package for creating themable tables as strings.",
   "keywords": [
-    "console",
     "markdown",
-    "print",
-    "stdout",
     "table",
-    "terminal",
     "theme"
   ],
   "homepage": "https://github.com/markusylisiurunen/md-table#readme",

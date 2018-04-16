@@ -4,9 +4,9 @@
 
 ## Features
 
-* 🖍 **Themable** by using [Chalk](https://www.npmjs.com/package/chalk)
+* 🖍 **Themable** using [chalk](https://www.npmjs.com/package/chalk).
 * 📎 **Copy-pasteable** to markdown files and websites.
-* 😍 It's **minimal and beautiful** af.
+* 😍 **Minimal and beautiful** af.
 
 ## Install
 
@@ -17,29 +17,32 @@ $ npm add md-table
 ## Usage
 
 ```js
-const printTable = require('md-table');
+const getTable = require('md-table');
 
-printTable(
-  ['Superhero', 'Real name'],
-  [
-    ['Batman', 'Bruce Wayne'],
-    ['Spider-Man', 'Peter Parker'],
-    ['Iron Man', 'Elon Musk'],
-  ]
+console.log(
+  getTable(
+    ['Superhero', 'Real name'],
+    [
+      ['Batman', 'Bruce Wayne'],
+      ['Spider-Man', 'Peter Parker'],
+      ['Iron Man', 'Elon Musk'],
+    ]
+  )
 );
 
-// =>
-//
-// | Superhero  | Real name    |
-// | ---------- | ------------ |
-// | Batman     | Bruce Wayne  |
-// | Spider-Man | Peter Parker |
-// | Iron Man   | Elon Musk    |
+/*
+=>
+| Superhero  | Real name    |
+| ---------- | ------------ |
+| Batman     | Bruce Wayne  |
+| Spider-Man | Peter Parker |
+| Iron Man   | Elon Musk    |
+*/
 ```
 
 ## API
 
-### printTable(header, rows, [options])
+### getTable(header, rows, [options])
 
 * `{Array<String>} header`: An array of the table's head columns.
 * `{Array<Array<String>>} rows`: An array of each row of data.
@@ -47,10 +50,10 @@ printTable(
   * `{Number} options.x` (default: `0`): Horizontal padding applied to the table.
   * `{Number} options.y` (default: `0`): Vertical padding applied to the table.
   * `{Object} options.colors`: An object of hex color values for theming.
-    * `{String} options.colors.head` (default: `''`): Header text color.
-    * `{String} options.colors.data` (default: `''`): Data text color.
-    * `{String} options.colors.border` (default: `''`): Border color.
+    * `{String} colors.head` (default: `''`): Header text color.
+    * `{String} colors.data` (default: `''`): Data text color.
+    * `{String} colors.border` (default: `''`): Border color.
 
 ## License
 
-[MIT](https://www.npmjs.com/package/md-table#license)
+MIT
