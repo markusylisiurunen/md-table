@@ -1,6 +1,5 @@
-[![npm](https://img.shields.io/npm/dm/md-table.svg)](https://www.npmjs.com/package/md-table)
-[![npm](https://img.shields.io/npm/v/md-table.svg)](https://www.npmjs.com/package/md-table)
-[![npm](https://david-dm.org/markusylisiurunen/md-table.svg)](https://www.npmjs.com/package/md-table)
+[![npm](https://img.shields.io/npm/v/@markusylisiurunen/md-table.svg)](https://www.npmjs.com/package/@markusylisiurunen/md-table)
+[![npm](https://david-dm.org/markusylisiurunen/md-table.svg)](https://www.npmjs.com/package/@markusylisiurunen/md-table)
 
 ![hero image](https://rawgit.com/markusylisiurunen/md-table/master/assets/hero.png)
 
