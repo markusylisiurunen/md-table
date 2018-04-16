@@ -2,6 +2,8 @@
 [![npm](https://img.shields.io/npm/v/md-table.svg)](https://www.npmjs.com/package/md-table)
 [![npm](https://david-dm.org/markusylisiurunen/md-table.svg)](https://www.npmjs.com/package/md-table)
 
+![hero image](https://rawgit.com/markusylisiurunen/md-table/master/assets/hero.png)
+
 ## Features
 
 * 🖍 **Themable** using [chalk](https://www.npmjs.com/package/chalk).
