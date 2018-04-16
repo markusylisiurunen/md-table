@@ -1,6 +1,8 @@
-[![npm](https://img.shields.io/npm/v/@markusylisiurunen/md-table.svg)](https://www.npmjs.com/package/@markusylisiurunen/md-table)
-[![npm](https://david-dm.org/markusylisiurunen/md-table.svg)](https://www.npmjs.com/package/@markusylisiurunen/md-table)
-
+![npm version](https://badge.fury.io/js/%40markusylisiurunen%2Fmd-table.svg)
+![npm dependencies](https://david-dm.org/markusylisiurunen/md-table.svg)
+![github issues](https://img.shields.io/github/issues/markusylisiurunen/md-table.svg)
+![license](https://img.shields.io/github/license/markusylisiurunen/md-table.svg)
+  
 ![hero image](https://rawgit.com/markusylisiurunen/md-table/master/assets/hero.png)
 
 ## Features
