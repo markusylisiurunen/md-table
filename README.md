@@ -14,7 +14,7 @@
 ## Install
 
 ```shell
-$ npm add md-table
+$ npm add @markusylisiurunen/md-table
 ```
 
 ## Usage
